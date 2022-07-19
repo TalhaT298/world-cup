@@ -1,7 +1,7 @@
 {
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    
 }
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;500&display=swap');
@@ -50,4 +50,42 @@ p{
     background-color: brown;
     color: azure;
     padding: 10px 40px;
+}
+/* footer */
+.footer-head{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-paragraph{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+    
+}
+hr{
+    opacity: 0.25;
+    max-width: 80%;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.footer-link i{
+    color: brown;
+    font-size: 30px;
+    
 }

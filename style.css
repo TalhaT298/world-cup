@@ -89,3 +89,97 @@ hr{
     font-size: 30px;
     
 }
+
+/* middle styles */
+.Button-1 {
+    background-color: brown
+    width: 187px;
+    height: 30px;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-section {
+    height: 312px;
+    width: 312px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin-top: 130px;
+
+}
+
+.menu-section a {
+
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 17px 39px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.blog-button2 {
+    color: #161616;
+}
+
+#Blog-button {
+    background-color: brown;
+    color: white;
+}
+
+
+.transfer{
+    margin-bottom: 24px;
+}
+
+.transfer-image {
+    width: 312px;
+    height: 175px;
+}
+
+.transfer-head {
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.transfer-description {
+    font-size: 18px;
+    font-weight: 600px;
+    color: black;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+.fa-message{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.main-section {
+    display: flex;
+}
+
+.tranfers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+    margin-top: 130px;
+}
